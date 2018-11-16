@@ -9,7 +9,6 @@ import org.junit.Test;
 import com.musala.gm.model.Gateway;
 
 public class TestGatewayRepository {
-
 	@Test
 	public void testGatewayRepository() {
 		GatewayRepository gatewayRepo = new GatewayRepositoryImpl();

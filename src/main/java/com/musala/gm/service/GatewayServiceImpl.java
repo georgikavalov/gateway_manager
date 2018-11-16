@@ -9,12 +9,12 @@ import com.musala.gm.model.Gateway;
 import com.musala.gm.repo.GatewayRepository;
 
 @Service("gatewayService")
-public class GetwayServiceImpl implements GatewayService {
+public class GatewayServiceImpl implements GatewayService {
 
 	private GatewayRepository gatewayRepo;
 	
 	@Autowired
-	public GetwayServiceImpl(GatewayRepository gatewayRepo) {
+	public GatewayServiceImpl(GatewayRepository gatewayRepo) {
 		this.gatewayRepo = gatewayRepo;
 	}
 
