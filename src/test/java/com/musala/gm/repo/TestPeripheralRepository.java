@@ -8,7 +8,7 @@ import org.junit.Test;
 
 import com.musala.gm.model.Peripheral;
 
-public class TestPeripheralRepo {
+public class TestPeripheralRepository {
 	@Test
 	public void testPeripheralepository() {
 		PeripheralRepository peripheralRepo = new PeripheralRepositoryImpl();

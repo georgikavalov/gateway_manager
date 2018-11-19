@@ -15,6 +15,6 @@ public class MainApplication {
 		ApplicationContext appContext = new AnnotationConfigApplicationContext(AppConfig.class);
 		LOGGER.info("Work work");
 		GatewayService service = appContext.getBean("gatewayService", GatewayService.class);
-		LOGGER.debug(service.toString());		
+		LOGGER.info(service.findAll().get(0).getIdent());		
 	}
 }
